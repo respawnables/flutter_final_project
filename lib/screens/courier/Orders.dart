@@ -1,5 +1,5 @@
 import 'package:beklegeliyy/AppLocalizations.dart';
-import 'file:///C:/Users/Batuhan/AndroidStudioProjects/beklegeliyy/lib/models/Order.dart';
+import 'package:beklegeliyy/models/Order.dart';
 import 'package:beklegeliyy/screens/courier/OrderTrack.dart';
 import 'package:beklegeliyy/widgets/MAppBar.dart';
 import 'package:firebase_database/firebase_database.dart';
