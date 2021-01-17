@@ -1,0 +1,344 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.beklegeliyy"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <!--
+16     io.flutter.app.FlutterApplication is an android.app.Application that
+17         calls FlutterMain.startInitialization(this); in its onCreate method.
+18         In most cases you can leave this as-is, but you if you want to provide
+19         additional functionality it is fine to subclass or reimplement
+20         FlutterApplication and put your custom class here.
+21    -->
+22    <uses-permission android:name="ACCESS_FINE_LOCATION" />
+22-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:9:5-59
+22-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:9:22-57
+23    <uses-permission android:name="ACCESS_COARSE_LOCATION" />
+23-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:10:5-61
+23-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:10:22-59
+24    <uses-permission android:name="WRITE_EXTERNAL_STORAGE" />
+24-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:11:5-61
+24-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:11:22-59
+25    <uses-permission android:name="READ_EXTERNAL_STORAGE" />
+25-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:12:5-60
+25-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:12:22-58
+26    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+26-->[:geolocator] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+26-->[:geolocator] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+27    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+27-->[:image_picker] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+27-->[:image_picker] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+28    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Include required permissions for Google Maps API to run. -->
+28-->[:image_picker] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+28-->[:image_picker] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\5b06b64c6ac4d0bda415105554fc4d41\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\5b06b64c6ac4d0bda415105554fc4d41\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+30
+31    <uses-feature
+31-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\5b06b64c6ac4d0bda415105554fc4d41\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+32        android:glEsVersion="0x00020000"
+32-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\5b06b64c6ac4d0bda415105554fc4d41\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+33        android:required="true" />
+33-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\5b06b64c6ac4d0bda415105554fc4d41\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+34
+35    <application
+35-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:14:5-56:19
+36        android:name="io.flutter.app.FlutterApplication"
+36-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:15:9-57
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.2.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\158de9519577c7ffb49592b2f543b9bc\core-1.2.0\AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/launcher_icon"
+39-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:17:9-45
+40        android:label="beklegeliyy" >
+40-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:16:9-36
+41        <meta-data
+41-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:19:9-20:70
+42            android:name="com.google.android.geo.API_KEY"
+42-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:19:20-65
+43            android:value="AIzaSyAJwc-yofVdje7EuurRy1DisskD_xUGi5s" />
+43-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:20:13-68
+44
+45        <activity
+45-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:22:9-50:20
+46            android:name="com.example.beklegeliyy.MainActivity"
+46-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:23:13-41
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+47-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:26:13-163
+48            android:hardwareAccelerated="true"
+48-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:27:13-47
+49            android:launchMode="singleTop"
+49-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:24:13-43
+50            android:theme="@style/LaunchTheme"
+50-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:25:13-47
+51            android:windowSoftInputMode="adjustResize" >
+51-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:28:13-55
+52
+53            <!--
+54                 Specifies an Android theme to apply to this Activity as soon as
+55                 the Android process has started. This theme is visible to the user
+56                 while the Flutter UI initializes. After that, this theme continues
+57                 to determine the Window background behind the Flutter UI.
+58            -->
+59            <meta-data
+59-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:33:13-36:17
+60                android:name="io.flutter.embedding.android.NormalTheme"
+60-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:34:15-70
+61                android:resource="@style/NormalTheme" />
+61-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:35:15-52
+62            <!--
+63                 Displays an Android View that continues showing the launch screen
+64                 Drawable until Flutter paints its first frame, then this splash
+65                 screen fades out. A splash screen is useful to avoid any visual
+66                 gap between the end of Android's launch screen and the painting of
+67                 Flutter's first frame.
+68            -->
+69            <meta-data
+69-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:42:13-45:17
+70                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+70-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:43:15-79
+71                android:resource="@drawable/launch_background" />
+71-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:44:15-61
+72
+73            <intent-filter>
+73-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:46:13-49:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:47:17-68
+74-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:47:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:48:17-76
+76-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:48:27-74
+77            </intent-filter>
+78        </activity>
+79        <!--
+80             Don't delete the meta-data below.
+81             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+82        -->
+83        <meta-data
+83-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:53:9-55:33
+84            android:name="flutterEmbedding"
+84-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:54:13-44
+85            android:value="2" />
+85-->C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\android\app\src\main\AndroidManifest.xml:55:13-30
+86
+87        <service
+87-->[:firebase_storage] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+88            android:name="com.google.firebase.components.ComponentDiscoveryService"
+88-->[:firebase_storage] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+89            android:directBootAware="true"
+89-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\f1942f8eac15f48ecf6edd43ce049e5a\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+90            android:exported="false" >
+90-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:76:13-37
+91            <meta-data
+91-->[:firebase_storage] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+92-->[:firebase_storage] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:firebase_storage] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+94            <meta-data
+94-->[:firebase_database] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+95-->[:firebase_database] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-127
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[:firebase_database] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+97            <meta-data
+97-->[:firebase_auth] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+98                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+98-->[:firebase_auth] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[:firebase_auth] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+100            <meta-data
+100-->[:firebase_core] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+101                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+101-->[:firebase_core] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[:firebase_core] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:77:13-79:85
+104                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+104-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:78:17-109
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:79:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-storage:19.2.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\89e703342d50d7cb9cb298acf79e9d30\firebase-storage-19.2.1\AndroidManifest.xml:33:13-35:85
+107                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+107-->[com.google.firebase:firebase-storage:19.2.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\89e703342d50d7cb9cb298acf79e9d30\firebase-storage-19.2.1\AndroidManifest.xml:34:17-107
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-storage:19.2.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\89e703342d50d7cb9cb298acf79e9d30\firebase-storage-19.2.1\AndroidManifest.xml:35:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-database:19.6.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\d2a361528c62938a5497c7929bf4e573\firebase-database-19.6.0\AndroidManifest.xml:32:13-34:85
+110                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+110-->[com.google.firebase:firebase-database:19.6.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\d2a361528c62938a5497c7929bf4e573\firebase-database-19.6.0\AndroidManifest.xml:33:17-109
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-database:19.6.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\d2a361528c62938a5497c7929bf4e573\firebase-database-19.6.0\AndroidManifest.xml:34:17-82
+112            <!--
+113                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+114                clients to use it as well, by defining this registrar in their own core/common library.
+115            -->
+116            <meta-data
+116-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\f1942f8eac15f48ecf6edd43ce049e5a\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+117                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+117-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\f1942f8eac15f48ecf6edd43ce049e5a\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\f1942f8eac15f48ecf6edd43ce049e5a\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+119        </service>
+120
+121        <provider
+121-->[:image_picker] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+122            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+122-->[:image_picker] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+123            android:authorities="com.example.beklegeliyy.flutter.image_provider"
+123-->[:image_picker] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+124            android:exported="false"
+124-->[:image_picker] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+125            android:grantUriPermissions="true" >
+125-->[:image_picker] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+126            <meta-data
+126-->[:image_picker] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+127                android:name="android.support.FILE_PROVIDER_PATHS"
+127-->[:image_picker] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+128                android:resource="@xml/flutter_image_picker_file_paths" />
+128-->[:image_picker] C:\Users\Batuhan\AndroidStudioProjects\beklegeliyy\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+129        </provider> <!-- Needs to be explicitly declared on P+ -->
+130        <uses-library
+130-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\5b06b64c6ac4d0bda415105554fc4d41\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+131            android:name="org.apache.http.legacy"
+131-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\5b06b64c6ac4d0bda415105554fc4d41\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+132            android:required="false" />
+132-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\5b06b64c6ac4d0bda415105554fc4d41\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+133
+134        <activity
+134-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:27:9-44:20
+135            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+135-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:28:13-80
+136            android:excludeFromRecents="true"
+136-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:29:13-46
+137            android:exported="true"
+137-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:30:13-36
+138            android:launchMode="singleTask"
+138-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:31:13-44
+139            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+139-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:32:13-72
+140            <intent-filter>
+140-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:33:13-43:29
+141                <action android:name="android.intent.action.VIEW" />
+141-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:34:17-69
+141-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:34:25-66
+142
+143                <category android:name="android.intent.category.DEFAULT" />
+143-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:36:17-76
+143-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:36:27-73
+144                <category android:name="android.intent.category.BROWSABLE" />
+144-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:37:17-78
+144-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:37:27-75
+145
+146                <data
+146-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:39:17-42:51
+147                    android:host="firebase.auth"
+147-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:40:21-49
+148                    android:path="/"
+148-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:41:21-37
+149                    android:scheme="genericidp" />
+149-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:42:21-48
+150            </intent-filter>
+151        </activity>
+152        <activity
+152-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:45:9-62:20
+153            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+153-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:46:13-79
+154            android:excludeFromRecents="true"
+154-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:47:13-46
+155            android:exported="true"
+155-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:48:13-36
+156            android:launchMode="singleTask"
+156-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:49:13-44
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+157-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:50:13-72
+158            <intent-filter>
+158-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:51:13-61:29
+159                <action android:name="android.intent.action.VIEW" />
+159-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:34:17-69
+159-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:34:25-66
+160
+161                <category android:name="android.intent.category.DEFAULT" />
+161-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:36:17-76
+161-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:36:27-73
+162                <category android:name="android.intent.category.BROWSABLE" />
+162-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:37:17-78
+162-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:37:27-75
+163
+164                <data
+164-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:39:17-42:51
+165                    android:host="firebase.auth"
+165-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:40:21-49
+166                    android:path="/"
+166-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:41:21-37
+167                    android:scheme="recaptcha" />
+167-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:42:21-48
+168            </intent-filter>
+169        </activity>
+170
+171        <service
+171-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:64:9-73:19
+172            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+172-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:65:13-101
+173            android:enabled="true"
+173-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:66:13-35
+174            android:exported="false" >
+174-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:67:13-37
+175            <intent-filter>
+175-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:68:13-72:29
+176                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+176-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:69:17-89
+176-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:69:25-86
+177
+178                <category android:name="android.intent.category.DEFAULT" />
+178-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:36:17-76
+178-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\a9cec26cc2282184db19203567629ecd\jetified-firebase-auth-20.0.1\AndroidManifest.xml:36:27-73
+179            </intent-filter>
+180        </service>
+181
+182        <activity
+182-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\2b894e143dd2774a6d7ba860922ee4b2\play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+183            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+183-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\2b894e143dd2774a6d7ba860922ee4b2\play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+184            android:exported="false"
+184-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\2b894e143dd2774a6d7ba860922ee4b2\play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+185            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+185-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\2b894e143dd2774a6d7ba860922ee4b2\play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+186
+187        <provider
+187-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\f1942f8eac15f48ecf6edd43ce049e5a\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+188            android:name="com.google.firebase.provider.FirebaseInitProvider"
+188-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\f1942f8eac15f48ecf6edd43ce049e5a\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+189            android:authorities="com.example.beklegeliyy.firebaseinitprovider"
+189-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\f1942f8eac15f48ecf6edd43ce049e5a\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+190            android:directBootAware="true"
+190-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\f1942f8eac15f48ecf6edd43ce049e5a\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+191            android:exported="false"
+191-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\f1942f8eac15f48ecf6edd43ce049e5a\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+192            android:initOrder="100" />
+192-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\f1942f8eac15f48ecf6edd43ce049e5a\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+193
+194        <meta-data
+194-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\8092671c969ccd776e0d4c3e70930dac\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+195            android:name="com.google.android.gms.version"
+195-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\8092671c969ccd776e0d4c3e70930dac\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+196            android:value="@integer/google_play_services_version" />
+196-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Batuhan\.gradle\caches\transforms-2\files-2.1\8092671c969ccd776e0d4c3e70930dac\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+197    </application>
+198
+199</manifest>
